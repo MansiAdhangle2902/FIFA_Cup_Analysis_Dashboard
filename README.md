@@ -1,4 +1,4 @@
-# FIFA_Cup_Analysis_Dashboard : Power BI Report
+# FIFA World Cup Analysis: Power BI Report
 
 This repository contains a detailed Power BI dashboard on the FIFA World Cup, offering insights into various aspects of the tournament, from attendance to team performance.
 
@@ -38,3 +38,8 @@ This repository contains a detailed Power BI dashboard on the FIFA World Cup, of
 - **Teams by Yellow Cards**: Brazil and Argentina also have the highest yellow card counts.
 
 ---
+
+*Data sourced from Power BI Desktop report. For a detailed breakdown and visualizations, refer to the pbix file.*
+
+*The image used is under creative common license [link to image](https://the-14.com/wp-content/uploads/2023/10/World-Cup-Opening-Ceremony-in-Doha-Qatar-November-21-2022-scaled.jpg)*.
+
