@@ -1,45 +1,67 @@
-# FIFA World Cup Analysis: Power BI Report
+<!-- PROJECT TITLE -->
+<h1 align="center">Email Spam Detection</h1>
 
-This repository contains a detailed Power BI dashboard on the FIFA World Cup, offering insights into various aspects of the tournament, from attendance to team performance.
+<!-- HEADER -->
+<p align="center">
+  <img src="Images/Email_Spam_Detection_Cover.png"/>
+</p>
 
-## Analytical Questions
-1. Is the hosting country more likely to win the cup?
-2. What factors influence an increase in attendance?
-3. Probability of a match going into extra time.
-4. Probability of a match proceeding to penalties.
-5. Factors influencing the home team's victory.
-6. Factors leading to an increase in home team goals.
-7. Factors influencing the away team's victory.
-8. Factors leading to an increase in away team goals.
-9. Determinants of a player's likelihood to score.
-10. Correlation between top goal-scoring teams and top fouling teams.
+<!-- PROJECT DESCRIPTION -->
+## <br>**➲ Project description**
+Email spam detection system is used to detect email spam using Machine Learning technique called Natural Language Processing and Python, where we have a dataset contain a lot of emails by extract important words and then use naive classifier we can detect if this email is spam or not.
 
-## Key Insights
+<!-- PREREQUISTIES -->
+## <br>**➲ Prerequisites**
+This is list of required packages and modules for the project to be installed :
+* <a href="https://www.python.org/downloads/" target="_blank">Python 3.x</a>
+* Pandas 
+* Numpy
+* Scikit-learn
+* NLTK
 
-### Attendance
-- Matches in the final stage tend to have higher attendance.
-- The USA, when hosting, sees a significant boost in attendance.
-- Tournaments with more than 16 qualified teams also see increased attendance.
+Install all required packages :
+ ```sh
+  pip install -r requirements.txt
+  ```
 
-### Match Conditions
-- Matches are more inclined to go to extra time when Belgium emerges as the match winner.
-- Penalties are more probable when the home team scores 1 or fewer goals.
+<!-- THE DATASET -->
+## <br>**➲ The Dataset**
+Human activites dataset contain about 5728 record which is a sample of an email
+and a target column "spam" which describe the state of an email spam or not.<br>
 
-### Home vs. Away Outcome
-- The home team's likelihood of winning correlates positively with their goal count and negatively with the away team's goal count.
+<!-- CODING SECTIONS -->
+## <br>**➲ Coding Sections**
+In this part we will see the project code divided to sections as follows:
+<br>
 
-### Player Performance
-- Players in the starting lineup are more prone to score.
-- Players with shirt numbers between 6 and 11 have a higher likelihood of scoring.
+- Section 1 | The Data :<br>
+In this section we aim to do some operations on the dataset before training the model on it,
+processes like :
+  1. Data Loading : Load the dataset
+  2. Data Visualization : Visualize dataset features
+  3. Data Cleaning : Remove stopwords and duplicates values
+  4. Data Splitting : Split the dataset into training and testing sets<br><br>
 
-## Top Statistics
-- **Top Goal Scorers**: Ronaldo, Klose, and Gerd Mueller lead the charts.
-- **Teams by Goals Scored**: Brazil and Argentina dominate in terms of goals.
-- **Teams by Yellow Cards**: Brazil and Argentina also have the highest yellow card counts.
+- Section 2 | The Model :<br>
+The dataset is ready for training, so we create a naive classifier using scikit-learn and thin fit it to the data, and finally we evaluate the model by getting accuracy, classification report and confusion matrix<br>
 
----
+<!-- INSTALLATION -->
+## ➲ Installation
+1. Clone the repo
+   ```sh
+   git clone https://github.com/omaarelsherif/Email-Spam-Detection-Using-Machine-Learning.git
+   ```
+2. Open 'main.ipynb' in Google Colab or VScode and enjoy
 
-*Data sourced from Power BI Desktop report. For a detailed breakdown and visualizations, refer to the pbix file.*
+<!-- REFERENCES -->
+## <br>**➲ References**
+These links may help you to better understanding of the project idea and techniques used :
+1. Spam detection in machine learning : https://bit.ly/3nwiKtA
+2. Naive-bayes algorithm : https://bit.ly/3zc9SLH
+3. Model evaluation : https://bit.ly/3B12VOO
 
-
-
+<!-- CONTACT -->
+## <br>**➲ Contact**
+- E-mail   : [omaarelsherif@gmail.com](mailto:omaarelsherif@gmail.com)
+- LinkedIn : https://www.linkedin.com/in/omaarelsherif/
+- Facebook : https://www.facebook.com/omaarelshereif
